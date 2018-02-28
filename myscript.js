@@ -6,8 +6,6 @@ function myReceiver(){
     if(lastbox == "")
     lastbox = undefined;
     concate(firstbox,lastbox);
-    
-
 }
 
 function concate(firstName="Raj",lastName="Amrit"){
