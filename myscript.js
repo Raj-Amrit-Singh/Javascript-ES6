@@ -1,9 +1,6 @@
 function myReceiver(){
-    //var label = document.getElementById("output");
     var firstbox = document.getElementById("firstname").value;
     var lastbox = document.getElementById('lastname').value;
-    //console.log(firstbox);
-    //console.log(lastbox);
     if(firstbox == "")
     firstbox = undefined;
     if(lastbox == "")
