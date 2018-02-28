@@ -1,4 +1,4 @@
-
+(function() { 
 let object = {
   age: 20,
   firstName: "John",
@@ -29,3 +29,4 @@ function addZ(value) {
 var [{ object_old }, { object_new }] = myFunction(object);
 console.log(object_old);
 console.log(object_new);
+} )();
