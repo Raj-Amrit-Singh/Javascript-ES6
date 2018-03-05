@@ -1,10 +1,10 @@
-function message() {
+message = () => {
   const name = `Hi ${document.getElementById("name").value}`;
-  let myPromise = new Promise(function (resolve, reject) {
+  let myPromise = new Promise((resolve, reject) => {
     let today = new Date();
     resolve(today.getHours());
   })
-    .then(function (hour) {
+    .then((hour) => {
       if (hour >= 12 && hour < 17) {
         alert(`${name} Good Afternoon!!!!!`);
       }
